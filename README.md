@@ -24,7 +24,7 @@ Member Contributions
   - Added bird model and its positioning, its controls, and boundaries for objects
   - Setup various camera angles and added ability to change between them
   - Various major and minor tweaks to other members' additions such as scores, shapes, etc.
-  - [Full detail of my changes](https://github.com/ucla-fa18-cs174a/term-project-group-18/commits?author=PrinceS25)
+  - [Full detail of my changes](https://github.com/PrinceS25/Flappy-Duck/commits?author=PrinceS25)
   <br />
   
 - Marvin Cirignano: 

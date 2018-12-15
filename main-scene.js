@@ -32,9 +32,9 @@ class Term_Project extends Scene_Component
                       roundedCylinder:new Rounded_Capped_Cylinder(30, 30),
                       axis:           new Axis_Arrows(),
                       text:           new Text_Line(24),
-                      bird:           new Shape_From_File("/assets/bird.obj"),
-                      rock:          new Shape_From_File("/assets/rock.obj"),
-                      boat:           new Shape_From_File("/assets/boat.obj"),
+                      bird:           new Shape_From_File("assets/bird.obj"),
+                      rock:          new Shape_From_File("assets/rock.obj"),
+                      boat:           new Shape_From_File("assets/boat.obj"),
                       mainPipe:       new Main_Pipe(30, 30),
                       pipeTip:        new Pipe_Tip(30, 30)
                    }  
@@ -57,7 +57,7 @@ class Term_Project extends Scene_Component
                       bumped_ocean: context.get_instance( Scroll_X_Bump ).material( Color.of( 0,0,0,1 ), {ambient: 1, diffusivity: 1, specularity: 1, texture: context.get_instance( "assets/ocean.jpg"), texture2: context.get_instance( "assets/ocean.jpg")} ),
                       sky: context.get_instance( Phong_Shader ).material( Color.of( 0,0,0,1 ), {ambient: 1, texture: context.get_instance( "assets/sky.png")} ),
                       sun: context.get_instance( Phong_Shader ).material( Color.of( 0,0,0,1 ), {ambient: 1, texture: context.get_instance( "assets/sunJoke.png")} ),
-                      text_image: context.get_instance( Phong_Shader ).material( Color.of( 0,0,0,1 ), { ambient: 1, diffusivity: 0, specularity: 0, texture: context.get_instance( "/assets/text.png" ) } )
+                      text_image: context.get_instance( Phong_Shader ).material( Color.of( 0,0,0,1 ), { ambient: 1, diffusivity: 0, specularity: 0, texture: context.get_instance( "assets/text.png" ) } )
                     }
 
 
